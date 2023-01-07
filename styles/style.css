@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part start */
+.bannar {
+    width: 100%;
+    height: 100vh;
+}
+
+.bannar-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: right;
+    margin-right: 230px;
+}
+
+.bannar-title {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.bannar-discription {
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+}
+/* btn section start */
+
+.btn-primary {
+    color: #fff;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 16px 12px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-secondary {
+    color: #F15B22;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 16px 12px;
+    margin-top: 30px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+/* btn section end */
+
+/* header part End */
+
+/* Failiar Part Start */
+.failure-section {
+    display: flex;
+    padding-top: 50px;
+}
+
+.failur-container {
+    padding: 130px;
+
+}
+
+.failure-section img {
+    width: 100%;
+    height: 100vh;
+    padding-left: 120px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 90px;
+}
+
+.fail-description {
+    color: #444343;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.failure-point {
+    margin: 16px;
+}
+
+.failure-point li i {
+    color: green;
+}
+
+.failure-point ul li {
+    line-height: 26px;
+    margin-left: -55px;
+    list-style: none;
+}
+
+/* Failiar Part End */
+
+
+/* plan part start */
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.plan-info {
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
+
+.plan-dtails {
+    justify-content: center;
+    text-align: center;
+}
+
+.plan-dtails h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.plan-dtails p {
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 16px;
+    text-align: center;
+    color: #737272;
+    ;
+}
+
+/* plan part end */
+
+/* mindset part start */
+.mindset {
+    margin: 125px 230px;
+}
+
+.watch-section {
+    background: url('../images/watch.png');
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+.watch-title{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.watch-item {
+    position: absolute;
+    margin: 60px 65px;
+    width: 40%;
+}
+
+.watch-item h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/* mindset part End */
+
+/* contact part start */
+.contact-section{
+    display: flex;
+    background: #151414;
+    margin-top: 30px;
+    padding: 130px 230px;
+    color: #FFFFFF;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.contact-sub-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-right: 230px;
+}
+.sub-title{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.items{
+    padding-right: 8px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+form input[type=email]{
+    padding: 20px 150px 20px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #151414;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+form ::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+/* contact part end */
